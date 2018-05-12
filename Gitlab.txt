@@ -1,0 +1,38 @@
+Command line instructions
+
+Git global setup
+git config --global user.name "Karthick"
+git config --global user.email "karthick10oct@yahoo.co.in"
+
+git config --global http.proxy http://<username>:<password>@<proxy-server-url>:<port>
+
+Create a new repository
+git clone http://172.18.2.18/karthick10oct/RestAPI.git
+
+git clone http://172.18.2.18/karthick10oct/WorkoutAppUI.git
+
+cd my-first-project
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+Existing folder
+cd existing_folder
+git init
+git remote add origin http://localhost/karthick10oct/my-first-project.git
+git add .
+git commit -m "Initial commit"
+git push -u origin master
+
+Existing Git repository
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin http://localhost/karthick10oct/my-first-project.git
+git push -u origin --all
+git push -u origin --tags
+
+http://localhost/karthick10oct/RestAPI.git
+
+git clone http://172.18.2.18/karthick10oct/WorkoutApp.git
+
